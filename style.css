@@ -131,3 +131,30 @@ a:hover {
   display: grid;
   gap: 7px;
 }
+
+
+.profile__link {
+  display: block;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  font-weight: 600;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: transform 150ms ease, background-color 150ms ease, border-color 150ms ease;
+  cursor: pointer;
+}
+
+.profile__link:hover,
+.profile__link:focus-visible {
+  transform: translateY(-1px);
+  background-color: var(--clr-green);
+}
+.profile__links a:hover{
+  color: var(--clr-grey-900);
+  font-weight: 600;
+  text-decoration: none;
+}
