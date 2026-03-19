@@ -70,3 +70,18 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.link{
+  color: var(--clr-green);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
