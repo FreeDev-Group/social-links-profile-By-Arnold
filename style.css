@@ -158,3 +158,20 @@ a:hover {
   font-weight: 600;
   text-decoration: none;
 }
+
+
+.profile__link:active {
+  transform: translateY(0);
+}
+
+.attribution {
+  margin-top: var(--space-lg);
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.attribution a {
+  color: var(--clr-green);
+  text-decoration: none;
+}
