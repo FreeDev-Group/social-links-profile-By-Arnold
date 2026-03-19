@@ -85,3 +85,25 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+
+/* Profile card */
+.profile {
+  width: min(100%, 420px);
+  background-color: var(--clr-grey-800);
+  border-radius: 1rem;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.profile__header {
+  display: grid;
+  gap: var(--space-md);
+  text-align: center;
+}
+
+.profile__avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-inline: auto;
+}
