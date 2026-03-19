@@ -17,3 +17,19 @@
   --space-lg: 1.5rem;
   --space-xl: 2.5rem;
 }
+
+/* Local font loading: use the font files in assets/fonts/static/ */
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url("./assets/fonts/static/Inter-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
